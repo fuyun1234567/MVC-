@@ -28,9 +28,9 @@ SpringMVC相对于MVC多了用户分发请求、管理视图的DispatchServlet
 ## 依赖关系 ##
 Model可以单独工作，而View和Controller都依赖Model中的数据
 
-#MVVM#
+# MVVM #
 
-##PM##
+## PM ##
 PM模式（Presentation Model）是MVVM的前身，
 PM模式与分离展示层Separated Presentation有一定的关系。
 PM 模式将**视图中的全部状态和行为放到一个单独的展示模型中，协调领域对象（模型）并且为视图层提供一个接口。**
@@ -39,7 +39,7 @@ PM 模式将**视图中的全部状态和行为放到一个单独的展示模型
 
 View中包含所有的View渲染需要的动态信息，包括View的内容（text、color）、Component是否启用（enable），除此之外还会将一些方法暴露给View用于某些事件的响应。
 
-##MVVM##
+## MVVM ##
 
 MVVM基本遵循PM模式的实现
 ![MVVM](https://github.com/fuyun1234567/MVC-/blob/master/Pic/Model-View-ViewModel.jpg?raw=true)
@@ -51,4 +51,4 @@ MVVM基本遵循PM模式的实现
 无论是 MVVM 还是 Presentation Model中最重要的不是如何同步视图和展示模型/视图模型之间的状态，是使用观察者模式、双向绑定还是其它的机制都不是整个模式中最重要的部分，最为关键的是**展示模型/视图模型创建了一个视图的抽象，将视图中的状态和行为抽离出一个新的抽象，这才是 MVVM 和 PM 中需要注意的**。
 
 
-##本文档内容非原创##
+## 本文档内容非原创 ##
