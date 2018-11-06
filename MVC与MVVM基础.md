@@ -2,7 +2,7 @@
 
 # MVC #
 MVC的重要目的是在人的心智模型和计算机的模型之间建立桥梁，为用户提供直接看到的信息和操作信息的功能
-![.NET MVC](https://i.imgur.com/qocVmmQ.jpg)
+![.NET MVC](https://github.com/fuyun1234567/MVC-/blob/master/Pic/MVC-with-ASP.NET.jpg?raw=true)
 
 ##理解##
 1. Controller负责管理View和Model
